@@ -1,7 +1,7 @@
 {
   "name": "his-cloud-admin",
   "version": "1.0.0",
-  "description": "东软云 HIS · 管理后台（Vue3 + Element Plus）",
+  "description": "南华大学附属医院 HIS · 管理后台（Vue3 + Element Plus）",
   "private": true,
   "type": "module",
   "scripts": {

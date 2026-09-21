@@ -20,3 +20,6 @@ dist_prev_*/
 # ---- 构建日志归档 ----
 docs/_archive/
 docs/*.log
+
+# ---- Vite 临时文件 ----
+*.timestamp-*.mjs

@@ -1,13 +1,13 @@
 /**
  * 图标库（内联 SVG → data URI，H5 与小程序通用）
  * 统一 1.7px 描边、圆角端点，线性风格，不依赖图标字体。
- * 默认描边色为品牌天蓝 #3d82c4。
+ * 默认描边色为品牌绿 #007a3f。
  */
 
-const P = '#3d82c4' // 品牌蓝
-const S = '#5d6b7d' // 次要
-const M = '#8b98a9' // 弱化
-const D = '#1f2c3d' // 深色
+const P = '#007a3f' // 品牌绿
+const S = '#5c6a60' // 次要
+const M = '#8a978e' // 弱化
+const D = '#1f2b24' // 深色
 
 const svg = (body, size = 24) =>
   `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">${body}</svg>`

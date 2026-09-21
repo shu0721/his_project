@@ -10,7 +10,7 @@
       <text class="chip primary">今日 {{ overview.todayTotal || 0 }} 项</text>
     </view>
 
-    <view class="page-body">
+    <view class="page-body tabbed">
       <!-- 概览 -->
       <view class="summary">
         <view class="summary-head">
@@ -178,7 +178,7 @@ export default {
 }
 
 .apply-patient {
-  font-size: 30rpx;
+  font-size: $font-md;
   font-weight: 600;
   color: $color-text;
 }

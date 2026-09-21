@@ -314,7 +314,7 @@ export default {
 }
 
 .doctor-name {
-  font-size: 30rpx;
+  font-size: $font-md;
   font-weight: 600;
   color: $color-text;
 }

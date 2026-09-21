@@ -10,7 +10,7 @@
       <text class="chip primary">出诊中</text>
     </view>
 
-    <view class="page-body">
+    <view class="page-body tabbed">
       <!-- 今日接诊 -->
       <view class="summary">
         <view class="summary-head">
@@ -242,7 +242,7 @@ export default {
 }
 
 .patient-name {
-  font-size: 30rpx;
+  font-size: $font-md;
   font-weight: 600;
   color: $color-text;
 }

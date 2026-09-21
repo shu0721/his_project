@@ -200,13 +200,13 @@ onMounted(load)
 }
 
 .ov-label {
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
 }
 
 .ov-value {
   margin-top: 8px;
-  font-size: 30px;
+  font-size: var(--his-font-4xl);
   font-weight: 600;
   letter-spacing: -0.02em;
   color: var(--his-primary-text);
@@ -218,7 +218,7 @@ onMounted(load)
   flex-wrap: wrap;
   gap: 16px;
   margin-top: 12px;
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
 }
 
@@ -239,7 +239,7 @@ onMounted(load)
   grid-template-columns: minmax(72px, max-content) minmax(60px, 1fr) max-content;
   align-items: center;
   gap: 14px;
-  font-size: 13px;
+  font-size: var(--his-font-base);
 }
 
 .ov-row-name {
@@ -270,7 +270,7 @@ onMounted(load)
 /* ---------- 走势 ---------- */
 .panel-sub {
   margin-top: 2px;
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   color: var(--his-text-muted);
 }
 
@@ -282,13 +282,13 @@ onMounted(load)
 }
 
 .panel-total span {
-  font-size: 15px;
+  font-size: var(--his-font-md);
   font-weight: 600;
   color: var(--his-text);
 }
 
 .panel-total i {
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   font-style: normal;
   color: var(--his-text-muted);
 }
@@ -310,7 +310,7 @@ onMounted(load)
 }
 
 .col-value {
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   color: var(--his-text-sub);
   margin-bottom: 6px;
   white-space: nowrap;
@@ -334,7 +334,7 @@ onMounted(load)
 }
 
 .col:hover .col-bar {
-  background: #a6c8e2;
+  background: #a3cbb5;
 }
 
 .col-bar.is-peak {
@@ -347,7 +347,7 @@ onMounted(load)
 
 .col-label {
   margin-top: 6px;
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   color: var(--his-text-muted);
 }
 
@@ -376,7 +376,7 @@ onMounted(load)
 .rate-num {
   width: 38px;
   text-align: right;
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
 }
 
@@ -387,7 +387,7 @@ onMounted(load)
   padding: 10px 16px;
   border-top: 1px solid var(--his-border);
   background: var(--his-surface-sunken);
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
 }
 </style>

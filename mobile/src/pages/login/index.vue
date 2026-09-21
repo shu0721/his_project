@@ -6,7 +6,7 @@
       <view class="brand-mark">
         <text class="brand-mark-text">HIS</text>
       </view>
-      <text class="brand-name">东软云 HIS</text>
+      <text class="brand-name">南华大学附属医院 HIS</text>
       <text class="brand-sub">门诊业务移动工作台</text>
     </view>
 
@@ -60,7 +60,7 @@
       <text class="tip">演示账号统一密码 123456</text>
     </view>
 
-    <text class="copyright">© 2026 东软云 HIS · 仅用于教学实训</text>
+    <text class="copyright">© 2026 南华大学附属医院 HIS · 仅用于教学实训</text>
   </view>
 </template>
 
@@ -144,14 +144,14 @@ export default {
 }
 
 .brand-mark-text {
-  font-size: 26rpx;
+  font-size: $font-sm;
   font-weight: 700;
   color: $color-text-invert;
   letter-spacing: 1rpx;
 }
 
 .brand-name {
-  font-size: 46rpx;
+  font-size: $font-2xl;
   font-weight: 600;
   color: $color-text;
   letter-spacing: -0.5rpx;
@@ -181,7 +181,7 @@ export default {
 }
 
 .panel-title {
-  font-size: 34rpx;
+  font-size: $font-lg;
   font-weight: 600;
   color: $color-text;
 }

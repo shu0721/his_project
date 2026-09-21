@@ -306,13 +306,13 @@ onMounted(() => {
 }
 
 .alert-title {
-  font-size: 13px;
+  font-size: var(--his-font-base);
   font-weight: 600;
   color: var(--his-warn);
 }
 
 .alert-count {
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-warn);
 }
 
@@ -330,14 +330,14 @@ onMounted(() => {
   border-radius: var(--his-radius-sm);
   background: rgba(255, 255, 255, 0.72);
   border: 1px solid #eedfbe;
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text);
 }
 
 .alert-item i {
   font-style: normal;
   color: var(--his-text-sub);
-  font-size: 11px;
+  font-size: var(--his-font-xs);
 }
 
 .alert-item.is-low {
@@ -346,13 +346,13 @@ onMounted(() => {
 
 .alert-more {
   align-self: center;
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-warn);
 }
 
 /* ---------- 表格 ---------- */
 .code {
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text);
 }
 
@@ -364,7 +364,7 @@ onMounted(() => {
 .drug-manu {
   display: block;
   margin-top: 1px;
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   color: var(--his-text-muted);
 }
 
@@ -386,7 +386,7 @@ onMounted(() => {
 }
 
 .stock-warn {
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   line-height: 1.2;
   color: var(--his-text-muted);
 }
@@ -404,7 +404,7 @@ onMounted(() => {
   border-radius: var(--his-radius-sm);
   background: transparent;
   color: var(--his-primary-text);
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   font-family: inherit;
   cursor: pointer;
   transition: background-color 150ms ease;
@@ -429,7 +429,7 @@ onMounted(() => {
   padding: 10px 16px;
   border-top: 1px solid var(--his-border);
   background: var(--his-surface-sunken);
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
 }
 

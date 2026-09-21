@@ -5,7 +5,7 @@
       <div class="rail-brand">
         <span class="rail-mark" aria-hidden="true">HIS</span>
         <span class="rail-name">
-          <b>东软云 HIS</b>
+          <b>南华大学附属医院 HIS</b>
           <i>管理控制台</i>
         </span>
       </div>
@@ -140,7 +140,7 @@ function logout() {
 
 /* ---------- 侧栏 ---------- */
 .rail {
-  width: 212px;
+  width: 244px;
   flex: none;
   display: flex;
   flex-direction: column;
@@ -165,7 +165,7 @@ function logout() {
   border-radius: var(--his-radius);
   background: var(--his-primary);
   color: var(--his-text-invert);
-  font-size: 10px;
+  font-size: var(--his-font-2xs);
   font-weight: 700;
   letter-spacing: 0.06em;
   flex: none;
@@ -174,17 +174,19 @@ function logout() {
 .rail-name {
   display: flex;
   flex-direction: column;
+  min-width: 0;
   line-height: 1.25;
 }
 
 .rail-name b {
-  font-size: 13px;
+  font-size: var(--his-font-sm);
   font-weight: 600;
   color: var(--his-text);
+  white-space: nowrap;
 }
 
 .rail-name i {
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   font-style: normal;
   color: var(--his-text-muted);
 }
@@ -197,7 +199,7 @@ function logout() {
 
 .rail-group {
   padding: 14px 8px 6px 8px;
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   font-weight: 600;
   color: var(--his-text-muted);
   letter-spacing: 0.04em;
@@ -211,7 +213,7 @@ function logout() {
   height: 34px;
   padding: 0 9px;
   border-radius: var(--his-radius);
-  font-size: 13px;
+  font-size: var(--his-font-base);
   color: var(--his-text-sub);
   text-decoration: none;
   transition: background-color 160ms ease, color 160ms ease;
@@ -241,7 +243,7 @@ function logout() {
 }
 
 .rail-icon {
-  font-size: 15px;
+  font-size: var(--his-font-md);
   flex: none;
 }
 
@@ -252,7 +254,7 @@ function logout() {
   height: 38px;
   padding: 0 16px;
   border-top: 1px solid var(--his-border);
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   color: var(--his-text-muted);
 }
 
@@ -294,7 +296,7 @@ function logout() {
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 13px;
+  font-size: var(--his-font-base);
   min-width: 0;
 }
 
@@ -303,7 +305,7 @@ function logout() {
 }
 
 .bar-crumb-sep {
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   color: var(--his-text-muted);
 }
 
@@ -319,7 +321,7 @@ function logout() {
 }
 
 .bar-clock {
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-muted);
 }
 
@@ -333,7 +335,7 @@ function logout() {
   display: flex;
   align-items: baseline;
   gap: 7px;
-  font-size: 12px;
+  font-size: var(--his-font-sm);
 }
 
 .bar-user b {
@@ -353,7 +355,7 @@ function logout() {
   border-radius: var(--his-radius);
   background: transparent;
   color: var(--his-text-sub);
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   font-family: inherit;
   cursor: pointer;
   transition: all 160ms ease;

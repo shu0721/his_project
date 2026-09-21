@@ -231,7 +231,7 @@ onMounted(load)
 
 <style scoped>
 .stamp {
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
   padding-right: 4px;
 }
@@ -255,7 +255,7 @@ onMounted(load)
 
 .panel-sub {
   margin-top: 2px;
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   color: var(--his-text-muted);
 }
 
@@ -267,19 +267,19 @@ onMounted(load)
 }
 
 .panel-total span {
-  font-size: 15px;
+  font-size: var(--his-font-md);
   font-weight: 600;
   color: var(--his-text);
 }
 
 .panel-total i {
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   font-style: normal;
   color: var(--his-text-muted);
 }
 
 .panel-link {
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-primary-text);
   text-decoration: none;
 }
@@ -307,7 +307,7 @@ onMounted(load)
 }
 
 .col-value {
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   color: var(--his-text-sub);
   margin-bottom: 6px;
 }
@@ -330,7 +330,7 @@ onMounted(load)
 }
 
 .col:hover .col-bar {
-  background: #a6c8e2;
+  background: #a3cbb5;
 }
 
 .col-bar.is-peak {
@@ -343,7 +343,7 @@ onMounted(load)
 
 .col-label {
   margin-top: 6px;
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   color: var(--his-text-muted);
 }
 
@@ -351,7 +351,7 @@ onMounted(load)
 .mini {
   width: 100%;
   border-collapse: collapse;
-  font-size: 13px;
+  font-size: var(--his-font-base);
 }
 
 .mini td {
@@ -392,14 +392,14 @@ onMounted(load)
 /* ---------- 表格内小元素 ---------- */
 .spec {
   margin-left: 6px;
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   font-style: normal;
   color: var(--his-text-muted);
 }
 
 .muted-cell {
   color: var(--his-text-sub);
-  font-size: 12px;
+  font-size: var(--his-font-sm);
 }
 
 .cell-tag {
@@ -408,7 +408,7 @@ onMounted(load)
   height: 20px;
   padding: 0 7px;
   border-radius: var(--his-radius-sm);
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   font-weight: 500;
 }
 

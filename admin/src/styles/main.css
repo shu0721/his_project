@@ -1,30 +1,30 @@
 /**
- * 东软云 HIS · 管理后台全局样式
- * 视觉基调：低饱和天蓝 + 白，克制、专业，去装饰化。
+ * 南华大学附属医院 HIS · 管理后台全局样式
+ * 视觉基调：中南民族大学绿（#007a3f）+ 白，克制、专业，去装饰化。
  * 数据密集场景优先保证可读性与对齐精度，动效只用于状态反馈。
  */
 
 :root {
   /* ---------- 表面 ---------- */
-  --his-canvas: #f2f5f9; /* 页面底 */
+  --his-canvas: #f2f6f3; /* 页面底 */
   --his-surface: #ffffff; /* 卡片 / 表格 */
-  --his-surface-sunken: #f7f9fc; /* 表头 / 只读区 */
-  --his-hover: #f4f7fb; /* 行悬浮 */
-  --his-border: #e3e9f0; /* 描边 */
-  --his-border-strong: #cfd9e6; /* 输入框描边 */
+  --his-surface-sunken: #f6f9f7; /* 表头 / 只读区 */
+  --his-hover: #f3f7f4; /* 行悬浮 */
+  --his-border: #e2e9e4; /* 描边 */
+  --his-border-strong: #cdd9d2; /* 输入框描边 */
 
-  /* ---------- 品牌（低饱和天蓝） ---------- */
-  --his-primary: #3d82c4;
-  --his-primary-hover: #3373b0;
-  --his-primary-active: #2b6298;
-  --his-primary-text: #2f6aa6; /* 用于浅底上的文字，保证对比度 */
-  --his-primary-tint: #eaf2fa; /* 选中 / 高亮底 */
-  --his-primary-line: #bcd5ea; /* 选中描边 */
+  /* ---------- 品牌（中南民族大学绿 #007a3f） ---------- */
+  --his-primary: #007a3f;
+  --his-primary-hover: #016c38;
+  --his-primary-active: #015a2e;
+  --his-primary-text: #00693a; /* 用于浅底上的文字，保证对比度 */
+  --his-primary-tint: #eaf5ef; /* 选中 / 高亮底 */
+  --his-primary-line: #bcdcc9; /* 选中描边 */
 
   /* ---------- 文字 ---------- */
-  --his-text: #1f2c3d;
-  --his-text-sub: #5d6b7d; /* ≥4.5:1 */
-  --his-text-muted: #8b98a9; /* 仅用于占位与辅助说明 */
+  --his-text: #1f2b24;
+  --his-text-sub: #5c6a60; /* ≥4.5:1 */
+  --his-text-muted: #8a978e; /* 仅用于占位与辅助说明 */
   --his-text-invert: #ffffff;
 
   /* ---------- 语义 ---------- */
@@ -34,49 +34,77 @@
   --his-warn-tint: #fbf2e2;
   --his-danger: #c0504d;
   --his-danger-tint: #fbeceb;
-  --his-info: #64748b;
-  --his-info-tint: #eef1f5;
+  --his-info: #637167;
+  --his-info-tint: #eef2ef;
 
   /* ---------- 圆角与阴影 ---------- */
   --his-radius-sm: 4px;
   --his-radius: 6px;
   --his-radius-lg: 8px;
-  --his-shadow: 0 1px 2px rgba(31, 44, 61, 0.06);
-  --his-shadow-pop: 0 6px 20px rgba(31, 44, 61, 0.1);
+  --his-shadow: 0 1px 2px rgba(31, 43, 36, 0.06);
+  --his-shadow-pop: 0 6px 20px rgba(31, 43, 36, 0.1);
+
+  /* ---------- 字号阶梯（参照主流 HIS 后台：正文 15px 起） ----------
+   * 2xs  12px  徽标、极小辅助
+   * xs   13px  辅助说明、分组标签
+   * sm   14px  表头、紧凑表格、次要信息
+   * base 15px  正文基准 —— 表格内容、表单控件、按钮、菜单
+   * md   16px  面板 / 卡片标题
+   * lg   20px  页面标题、区块标题
+   * xl   22px  登录页表单标题
+   * 2xl  26px  指标数值
+   * 3xl  30px  登录页主标题
+   * 4xl  34px  大号金额数值
+   */
+  --his-font-2xs: 12px;
+  --his-font-xs: 13px;
+  --his-font-sm: 14px;
+  --his-font-base: 15px;
+  --his-font-md: 16px;
+  --his-font-lg: 20px;
+  --his-font-xl: 22px;
+  --his-font-2xl: 26px;
+  --his-font-3xl: 30px;
+  --his-font-4xl: 34px;
 }
 
 /* ---------- Element Plus 主题对齐 ---------- */
 :root {
-  --el-color-primary: #3d82c4;
-  --el-color-primary-light-3: #6ba0d3;
-  --el-color-primary-light-5: #93b9e0;
-  --el-color-primary-light-7: #bcd5ea;
-  --el-color-primary-light-8: #d2e3f2;
-  --el-color-primary-light-9: #eaf2fa;
-  --el-color-primary-dark-2: #2f6aa6;
+  --el-color-primary: #007a3f;
+  --el-color-primary-light-3: #4da279;
+  --el-color-primary-light-5: #80bd9f;
+  --el-color-primary-light-7: #bcdcc9;
+  --el-color-primary-light-8: #cce4d9;
+  --el-color-primary-light-9: #eaf5ef;
+  --el-color-primary-dark-2: #00693a;
 
   --el-color-success: #3f9d6f;
   --el-color-warning: #b7791f;
   --el-color-danger: #c0504d;
   --el-color-error: #c0504d;
-  --el-color-info: #64748b;
+  --el-color-info: #637167;
 
-  --el-text-color-primary: #1f2c3d;
-  --el-text-color-regular: #3d4c60;
-  --el-text-color-secondary: #5d6b7d;
-  --el-text-color-placeholder: #8b98a9;
+  --el-text-color-primary: #1f2b24;
+  --el-text-color-regular: #3d4a41;
+  --el-text-color-secondary: #5c6a60;
+  --el-text-color-placeholder: #8a978e;
 
-  --el-border-color: #e3e9f0;
-  --el-border-color-light: #eaf0f6;
-  --el-border-color-lighter: #f0f4f8;
+  --el-border-color: #e2e9e4;
+  --el-border-color-light: #e9f0ea;
+  --el-border-color-lighter: #eff4f0;
   --el-fill-color-blank: #ffffff;
-  --el-fill-color-light: #f7f9fc;
+  --el-fill-color-light: #f6f9f7;
 
   --el-border-radius-base: 6px;
   --el-border-radius-small: 4px;
 
-  --el-font-size-base: 13px;
-  --el-box-shadow-light: 0 1px 2px rgba(31, 44, 61, 0.06);
+  --el-font-size-extra-large: 18px;
+  --el-font-size-large: var(--his-font-md);
+  --el-font-size-medium: var(--his-font-base);
+  --el-font-size-base: var(--his-font-base);
+  --el-font-size-small: var(--his-font-sm);
+  --el-font-size-extra-small: var(--his-font-sm);
+  --el-box-shadow-light: 0 1px 2px rgba(31, 43, 36, 0.06);
 }
 
 /* ---------- 基础 ---------- */
@@ -93,7 +121,7 @@ body {
   color: var(--his-text);
   font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', -apple-system,
     'Segoe UI', sans-serif;
-  font-size: 13px;
+  font-size: var(--his-font-base);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -121,7 +149,7 @@ body {
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #c8d3e0 transparent;
+  scrollbar-color: #c7d5cc transparent;
 }
 
 *::-webkit-scrollbar {
@@ -134,14 +162,14 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-  background: #c8d3e0;
+  background: #c7d5cc;
   border: 3px solid transparent;
   background-clip: content-box;
   border-radius: 6px;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background: #a9b8c9;
+  background: #a8b8ae;
   background-clip: content-box;
 }
 
@@ -181,7 +209,7 @@ textarea {
 }
 
 .his-head-title {
-  font-size: 17px;
+  font-size: var(--his-font-lg);
   font-weight: 600;
   color: var(--his-text);
   letter-spacing: -0.01em;
@@ -189,7 +217,7 @@ textarea {
 
 .his-head-desc {
   margin-top: 3px;
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
 }
 
@@ -227,13 +255,13 @@ textarea {
 }
 
 .his-panel-title {
-  font-size: 14px;
+  font-size: var(--his-font-md);
   font-weight: 600;
   color: var(--his-text);
 }
 
 .his-panel-meta {
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
 }
 
@@ -255,13 +283,13 @@ textarea {
 }
 
 .page-title {
-  font-size: 15px;
+  font-size: var(--his-font-md);
   font-weight: 600;
   color: var(--his-text);
 }
 
 .page-desc {
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
   margin-top: 3px;
 }
@@ -286,13 +314,13 @@ textarea {
 }
 
 .his-metric-label {
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
 }
 
 .his-metric-value {
   margin-top: 6px;
-  font-size: 22px;
+  font-size: var(--his-font-2xl);
   font-weight: 600;
   color: var(--his-text);
   letter-spacing: -0.02em;
@@ -300,7 +328,7 @@ textarea {
 
 .his-metric-foot {
   margin-top: 3px;
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   color: var(--his-text-muted);
 }
 
@@ -323,7 +351,7 @@ textarea {
   display: grid;
   grid-template-columns: max-content minmax(0, 1fr);
   gap: 8px 20px;
-  font-size: 13px;
+  font-size: var(--his-font-base);
 }
 
 .his-defs dt {
@@ -341,7 +369,7 @@ textarea {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
 }
 
@@ -358,7 +386,7 @@ textarea {
 .his-empty {
   padding: 40px 16px;
   text-align: center;
-  font-size: 13px;
+  font-size: var(--his-font-base);
   color: var(--his-text-muted);
 }
 
@@ -367,7 +395,7 @@ textarea {
   background: var(--his-surface-sunken) !important;
   color: var(--his-text-sub);
   font-weight: 600;
-  font-size: 12px;
+  font-size: var(--his-font-sm);
 }
 
 .el-table .el-table__cell {
@@ -387,7 +415,7 @@ textarea {
 }
 
 .el-button--small {
-  font-size: 12px;
+  font-size: var(--his-font-sm);
 }
 
 .el-tag {
@@ -407,7 +435,7 @@ textarea {
 }
 
 .el-dialog__title {
-  font-size: 15px;
+  font-size: var(--his-font-md);
   font-weight: 600;
   color: var(--his-text);
 }

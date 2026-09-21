@@ -253,7 +253,7 @@ export default {
 }
 
 .acc-name {
-  font-size: 32rpx;
+  font-size: $font-lg;
   font-weight: 600;
   color: $color-text;
 }

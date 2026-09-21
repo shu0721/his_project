@@ -3,7 +3,7 @@
     <StatusBar />
     <NavBar title="工作量统计" rightText="导出" @right="onExport" />
 
-    <view class="page-body">
+    <view class="page-body tabbed">
       <!-- 营收概览 -->
       <view class="summary">
         <view class="summary-head">
@@ -188,7 +188,7 @@ export default {
 }
 
 .col-value {
-  font-size: 18rpx;
+  font-size: $font-xs;
   color: $color-text-muted;
   margin-bottom: 8rpx;
 }
@@ -215,7 +215,7 @@ export default {
 
 .col-label {
   margin-top: 8rpx;
-  font-size: 20rpx;
+  font-size: $font-xs;
   color: $color-text-muted;
 }
 

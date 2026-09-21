@@ -20,28 +20,28 @@ export default {
   computed: {
     signalIcon() {
       return this.svg(
-        '<rect x="1" y="11" width="3" height="5" rx="1" fill="#1f2c3d"/>' +
-          '<rect x="6" y="8" width="3" height="8" rx="1" fill="#1f2c3d"/>' +
-          '<rect x="11" y="5" width="3" height="11" rx="1" fill="#1f2c3d"/>' +
-          '<rect x="16" y="2" width="3" height="14" rx="1" fill="#1f2c3d"/>',
+        '<rect x="1" y="11" width="3" height="5" rx="1" fill="#1f2b24"/>' +
+          '<rect x="6" y="8" width="3" height="8" rx="1" fill="#1f2b24"/>' +
+          '<rect x="11" y="5" width="3" height="11" rx="1" fill="#1f2b24"/>' +
+          '<rect x="16" y="2" width="3" height="14" rx="1" fill="#1f2b24"/>',
         22,
         20
       )
     },
     wifiIcon() {
       return this.svg(
-        '<path d="M2.5 7.5a10.5 10.5 0 0 1 15 0" stroke="#1f2c3d" stroke-width="1.7" stroke-linecap="round" fill="none"/>' +
-          '<path d="M6 11a5.5 5.5 0 0 1 8 0" stroke="#1f2c3d" stroke-width="1.7" stroke-linecap="round" fill="none"/>' +
-          '<circle cx="10" cy="15" r="1.4" fill="#1f2c3d"/>',
+        '<path d="M2.5 7.5a10.5 10.5 0 0 1 15 0" stroke="#1f2b24" stroke-width="1.7" stroke-linecap="round" fill="none"/>' +
+          '<path d="M6 11a5.5 5.5 0 0 1 8 0" stroke="#1f2b24" stroke-width="1.7" stroke-linecap="round" fill="none"/>' +
+          '<circle cx="10" cy="15" r="1.4" fill="#1f2b24"/>',
         20,
         20
       )
     },
     batteryIcon() {
       return this.svg(
-        '<rect x="1" y="5" width="20" height="11" rx="3" stroke="#1f2c3d" stroke-opacity="0.32" stroke-width="1.3" fill="none"/>' +
-          '<rect x="3" y="7" width="13" height="7" rx="1.6" fill="#1f2c3d"/>' +
-          '<path d="M23 8.8v3.4a2 2 0 0 0 0-3.4Z" fill="#1f2c3d" fill-opacity="0.4"/>',
+        '<rect x="1" y="5" width="20" height="11" rx="3" stroke="#1f2b24" stroke-opacity="0.32" stroke-width="1.3" fill="none"/>' +
+          '<rect x="3" y="7" width="13" height="7" rx="1.6" fill="#1f2b24"/>' +
+          '<path d="M23 8.8v3.4a2 2 0 0 0 0-3.4Z" fill="#1f2b24" fill-opacity="0.4"/>',
         25,
         20
       )
@@ -88,7 +88,7 @@ export default {
 }
 
 .status-time {
-  font-size: 30rpx;
+  font-size: $font-md;
   font-weight: 600;
   color: $color-text;
 }

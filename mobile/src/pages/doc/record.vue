@@ -251,7 +251,7 @@ export default {
 }
 
 .p-name {
-  font-size: 34rpx;
+  font-size: $font-lg;
   font-weight: 600;
   color: $color-text;
 }

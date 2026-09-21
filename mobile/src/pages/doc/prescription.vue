@@ -220,7 +220,7 @@ export default {
   padding: 16rpx 20rpx;
   border-radius: $radius-sm;
   background-color: $color-primary-tint;
-  border: 2rpx solid #d7e6f3;
+  border: 2rpx solid #d5e7db;
 }
 
 .hint-text {
@@ -248,7 +248,7 @@ export default {
 }
 
 .drug-name {
-  font-size: 30rpx;
+  font-size: $font-md;
   font-weight: 600;
   color: $color-text;
 }
@@ -259,7 +259,7 @@ export default {
 }
 
 .drug-amt {
-  font-size: 30rpx;
+  font-size: $font-md;
   font-weight: 600;
   color: $color-text;
   flex: none;
@@ -301,13 +301,13 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 32rpx;
+  font-size: $font-lg;
   color: $color-text-sub;
   background-color: $color-sunken;
 }
 
 .step:active {
-  background-color: #e7edf4;
+  background-color: #e6ece8;
 }
 
 .step-num {
@@ -357,7 +357,7 @@ export default {
 }
 
 .tally-sum {
-  font-size: 34rpx;
+  font-size: $font-lg;
   font-weight: 600;
   color: $color-primary-text;
 }

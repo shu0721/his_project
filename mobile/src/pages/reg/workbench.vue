@@ -9,7 +9,7 @@
       </view>
     </view>
 
-    <view class="page-body">
+    <view class="page-body tabbed">
       <!-- 今日概况 -->
       <view class="summary">
         <view class="summary-head">
@@ -220,7 +220,7 @@ export default {
 }
 
 .queue-name {
-  font-size: 30rpx;
+  font-size: $font-md;
   font-weight: 600;
   color: $color-text;
 }

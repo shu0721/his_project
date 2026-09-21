@@ -163,7 +163,7 @@ export default {
 
 /* ---------- 处方 ---------- */
 .rx-no {
-  font-size: 26rpx;
+  font-size: $font-sm;
   font-weight: 600;
   color: $color-text;
   letter-spacing: 0.4rpx;
@@ -195,7 +195,7 @@ export default {
 }
 
 .rx-amount {
-  font-size: 30rpx;
+  font-size: $font-md;
   font-weight: 600;
   color: $color-text;
 }

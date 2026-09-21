@@ -4,7 +4,7 @@
     <section class="intro">
       <div class="intro-brand">
         <span class="intro-mark" aria-hidden="true">HIS</span>
-        <span class="intro-name">东软云 HIS</span>
+        <span class="intro-name">南华大学附属医院 HIS</span>
       </div>
 
       <div class="intro-copy">
@@ -79,7 +79,7 @@
         </div>
       </div>
 
-      <p class="copyright">© 2026 东软云 HIS · 仅用于教学实训</p>
+      <p class="copyright">© 2026 南华大学附属医院 HIS · 仅用于教学实训</p>
     </section>
   </div>
 </template>
@@ -165,13 +165,13 @@ async function onSubmit() {
   border-radius: var(--his-radius);
   background: var(--his-primary);
   color: var(--his-text-invert);
-  font-size: 10px;
+  font-size: var(--his-font-2xs);
   font-weight: 700;
   letter-spacing: 0.06em;
 }
 
 .intro-name {
-  font-size: 14px;
+  font-size: var(--his-font-base);
   font-weight: 600;
   color: var(--his-primary-text);
 }
@@ -183,18 +183,18 @@ async function onSubmit() {
 
 .intro-copy h1 {
   margin: 0;
-  font-size: 26px;
+  font-size: var(--his-font-3xl);
   font-weight: 600;
   letter-spacing: -0.02em;
-  color: #23405c;
+  color: #1a3524;
   line-height: 1.3;
 }
 
 .intro-copy p {
   margin: 12px 0 0 0;
-  font-size: 13px;
+  font-size: var(--his-font-base);
   line-height: 1.75;
-  color: #4a6b88;
+  color: #3e6049;
 }
 
 .intro-points {
@@ -214,7 +214,7 @@ async function onSubmit() {
 
 .intro-point-icon {
   margin-top: 2px;
-  font-size: 15px;
+  font-size: var(--his-font-md);
   color: var(--his-primary);
   flex: none;
 }
@@ -226,22 +226,22 @@ async function onSubmit() {
 }
 
 .intro-points b {
-  font-size: 13px;
+  font-size: var(--his-font-base);
   font-weight: 600;
-  color: #2b4a68;
+  color: #22402c;
 }
 
 .intro-points i {
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   font-style: normal;
-  color: #5d7f9d;
+  color: #52735c;
 }
 
 .intro-foot {
   margin-top: auto;
   padding-top: 32px;
-  font-size: 11px;
-  color: #6e91ae;
+  font-size: var(--his-font-xs);
+  color: #5f8069;
   letter-spacing: 0.02em;
 }
 
@@ -261,7 +261,7 @@ async function onSubmit() {
 
 .form-box h2 {
   margin: 0;
-  font-size: 19px;
+  font-size: var(--his-font-xl);
   font-weight: 600;
   color: var(--his-text);
   letter-spacing: -0.01em;
@@ -269,7 +269,7 @@ async function onSubmit() {
 
 .form-hint {
   margin: 6px 0 24px 0;
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
 }
 
@@ -281,7 +281,7 @@ async function onSubmit() {
 .field-label {
   display: block;
   margin-bottom: 6px;
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
 }
 
@@ -301,7 +301,7 @@ async function onSubmit() {
   align-items: baseline;
   justify-content: space-between;
   margin-bottom: 10px;
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
 }
 
@@ -342,13 +342,13 @@ async function onSubmit() {
 }
 
 .demo-item b {
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   font-weight: 600;
   color: var(--his-text);
 }
 
 .demo-item i {
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   font-style: normal;
   color: var(--his-text-muted);
   font-family: 'SF Mono', Consolas, monospace;
@@ -356,7 +356,7 @@ async function onSubmit() {
 
 .copyright {
   margin: 28px 0 0 0;
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   color: var(--his-text-muted);
 }
 

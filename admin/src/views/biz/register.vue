@@ -167,7 +167,7 @@ onMounted(load)
 }
 
 .case-no {
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text);
 }
 
@@ -178,7 +178,7 @@ onMounted(load)
 
 .p-meta {
   margin-left: 8px;
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-muted);
 }
 
@@ -192,7 +192,7 @@ onMounted(load)
   height: 20px;
   padding: 0 7px;
   border-radius: var(--his-radius-sm);
-  font-size: 11px;
+  font-size: var(--his-font-xs);
   font-weight: 500;
   background: var(--his-info-tint);
   color: var(--his-info);
@@ -218,7 +218,7 @@ onMounted(load)
   border: none;
   border-radius: var(--his-radius-sm);
   background: transparent;
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   font-family: inherit;
   cursor: pointer;
   transition: background-color 150ms ease;
@@ -234,7 +234,7 @@ onMounted(load)
 
 .op-none {
   color: var(--his-text-muted);
-  font-size: 12px;
+  font-size: var(--his-font-sm);
 }
 
 .table-foot {
@@ -244,7 +244,7 @@ onMounted(load)
   padding: 10px 16px;
   border-top: 1px solid var(--his-border);
   background: var(--his-surface-sunken);
-  font-size: 12px;
+  font-size: var(--his-font-sm);
   color: var(--his-text-sub);
 }
 </style>

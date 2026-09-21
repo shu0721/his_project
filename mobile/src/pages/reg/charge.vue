@@ -226,7 +226,7 @@ export default {
 }
 
 .pending-name {
-  font-size: 30rpx;
+  font-size: $font-md;
   font-weight: 600;
   color: $color-text;
 }
@@ -238,7 +238,7 @@ export default {
 
 /* ---------- 患者 ---------- */
 .p-name {
-  font-size: 34rpx;
+  font-size: $font-lg;
   font-weight: 600;
   color: $color-text;
 }
@@ -299,7 +299,7 @@ export default {
 }
 
 .fee-total-value {
-  font-size: 34rpx;
+  font-size: $font-lg;
   font-weight: 600;
   color: $color-primary-text;
 }

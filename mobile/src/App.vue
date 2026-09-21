@@ -46,6 +46,11 @@ page {
   padding-bottom: 220rpx;
 }
 
+/* 带底部标签栏时给内容留出空间，避免末行被固定栏遮挡 */
+.page-body.tabbed {
+  padding-bottom: 200rpx;
+}
+
 /* ================= 页头（无导航栏页面使用） ================= */
 .page-head {
   display: flex;
@@ -64,7 +69,7 @@ page {
 }
 
 .page-head-title {
-  font-size: 38rpx;
+  font-size: $font-xl;
   font-weight: 600;
   color: $color-text;
   letter-spacing: -0.5rpx;
@@ -102,7 +107,7 @@ page {
 }
 
 .card-title {
-  font-size: $font-md;
+  font-size: $font-lg;
   font-weight: 600;
   color: $color-text;
 }
@@ -273,7 +278,7 @@ page {
 }
 
 .btn-mini:active {
-  background-color: #dceaf6;
+  background-color: #d9e9de;
 }
 
 .btn-mini.plain {
@@ -392,7 +397,7 @@ page {
 }
 
 .bottom-total-value {
-  font-size: 38rpx;
+  font-size: $font-xl;
   font-weight: 600;
   color: $color-text;
 }
@@ -464,7 +469,7 @@ page {
 }
 
 .summary-item-label {
-  font-size: $font-xs;
+  font-size: $font-sm;
   color: $color-text-sub;
 }
 
@@ -501,7 +506,7 @@ page {
 }
 
 .grid-text {
-  font-size: $font-xs;
+  font-size: $font-sm;
   color: $color-text-sub;
 }
 </style>

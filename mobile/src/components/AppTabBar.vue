@@ -31,7 +31,7 @@ export default {
   methods: {
     iconOf(item, idx) {
       const active = idx === this.current
-      const color = active ? '#3d82c4' : '#8b98a9'
+      const color = active ? '#007a3f' : '#8a978e'
       const name = item.icon || 'grid'
       const base = {
         grid:
@@ -96,7 +96,7 @@ export default {
 }
 
 .tab-text {
-  font-size: 20rpx;
+  font-size: $font-xs;
   color: $color-text-muted;
 }
 
