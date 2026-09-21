@@ -15,7 +15,7 @@
     <artifactId>his-cloud-server</artifactId>
     <version>1.0.0</version>
     <name>his-cloud-server</name>
-    <description>东软云 HIS · 后端服务（核心业务闭环）</description>
+    <description>南华大学附属医院 HIS · 后端服务（核心业务闭环）</description>
 
     <properties>
         <java.version>17</java.version>
