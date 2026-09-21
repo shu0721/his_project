@@ -1,0 +1,22 @@
+# ---- Java / Maven ----
+server/target/
+*.class
+*.jar
+!server/.mvn/wrapper/*.jar
+
+# ---- Node ----
+node_modules/
+dist/
+dist_prev_*/
+.unpackage/
+*.log
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# ---- 构建日志归档 ----
+docs/_archive/
+docs/*.log

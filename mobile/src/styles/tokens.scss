@@ -1,0 +1,72 @@
+/**
+ * 设计令牌 · 移动端
+ * 与管理后台共用同一套视觉语言：低饱和天蓝 + 白，克制、专业。
+ * 分页与组件统一引用此处变量，禁止在页面内硬编码颜色。
+ */
+
+/* ---------- 表面 ---------- */
+$color-bg: #f2f5f9; // 页面底
+$color-card: #ffffff; // 卡片 / 内容面
+$color-sunken: #f7f9fc; // 表头 / 只读区 / 分段控件底
+$color-fill: #f4f7fb; // 输入框底
+$color-divider: #e8edf3; // 分隔线
+$color-border: #e3e9f0; // 描边
+
+/* ---------- 品牌（低饱和天蓝） ---------- */
+$color-primary: #3d82c4;
+$color-primary-hover: #3373b0;
+$color-primary-active: #2b6298;
+$color-primary-text: #2f6aa6; // 浅底上的文字色，保证对比度
+$color-primary-tint: #eaf2fa; // 选中底
+$color-primary-line: #bcd5ea; // 选中描边 / 次要图形
+$color-primary-soft: #d6e6f4; // 图表次要柱
+
+/* ---------- 文字 ---------- */
+$color-text: #1f2c3d;
+$color-text-sub: #5d6b7d;
+$color-text-muted: #8b98a9;
+$color-text-invert: #ffffff;
+
+/* ---------- 语义 ---------- */
+$color-success: #3f9d6f;
+$color-success-tint: #e9f5ee;
+$color-warn: #b7791f;
+$color-warn-tint: #fbf2e2;
+$color-danger: #c0504d;
+$color-danger-tint: #fbeceb;
+$color-info: #64748b;
+$color-info-tint: #eef1f5;
+
+/* ---------- 圆角（rpx，750 基准） ---------- */
+$radius-xs: 8rpx;
+$radius-sm: 12rpx;
+$radius-card: 20rpx;
+$radius-chip: 10rpx;
+$radius-pill: 44rpx;
+$radius-input: 12rpx;
+
+/* ---------- 间距 ---------- */
+$gap-xs: 8rpx;
+$gap-sm: 16rpx;
+$gap-md: 24rpx;
+$gap-lg: 32rpx;
+$gap-xl: 40rpx;
+$page-padding: 32rpx;
+
+/* ---------- 字号 ---------- */
+$font-xs: 22rpx;
+$font-sm: 24rpx;
+$font-md: 28rpx;
+$font-lg: 32rpx;
+$font-xl: 38rpx;
+$font-hero: 56rpx;
+
+/* ---------- 阴影（一律带偏移 + 柔和模糊） ---------- */
+$shadow-card: 0 2rpx 8rpx rgba(31, 44, 61, 0.05);
+$shadow-raise: 0 8rpx 24rpx rgba(31, 44, 61, 0.1);
+
+/* ---------- 结构 ---------- */
+$status-bar-height: 116rpx; // 状态栏占位（58px）
+$nav-height: 92rpx;
+$tabbar-height: 168rpx; // 底部标签栏占位
+$page-min-height: 1624rpx; // 812px

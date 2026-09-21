@@ -1,0 +1,94 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/reg/workbench",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "挂号收费工作台"
+      }
+    },
+    {
+      "path": "pages/reg/register",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "现场挂号"
+      }
+    },
+    {
+      "path": "pages/reg/charge",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "收费结算"
+      }
+    },
+    {
+      "path": "pages/doc/workbench",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "门诊医生工作台"
+      }
+    },
+    {
+      "path": "pages/doc/record",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "门诊病历"
+      }
+    },
+    {
+      "path": "pages/doc/prescription",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "成药处方"
+      }
+    },
+    {
+      "path": "pages/tech/workbench",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "医技工作台"
+      }
+    },
+    {
+      "path": "pages/pharm/dispense",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "门诊发药"
+      }
+    },
+    {
+      "path": "pages/pharm/drugs",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "药品管理"
+      }
+    },
+    {
+      "path": "pages/finance/workload",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "工作量统计"
+      }
+    },
+    {
+      "path": "pages/system/workbench",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "系统管理"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "智慧医院",
+    "navigationBarBackgroundColor": "#F9F9F9",
+    "backgroundColor": "#F9F9F9"
+  }
+}

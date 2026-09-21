@@ -1,0 +1,30 @@
+{
+  "name": "智慧医院",
+  "appid": "",
+  "description": "东软云 HIS · 移动端",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3
+  },
+  "quickapp": {},
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "minified": true
+    },
+    "usingComponents": true
+  },
+  "h5": {
+    "title": "智慧医院",
+    "router": {
+      "mode": "hash"
+    }
+  },
+  "vueVersion": "3"
+}
